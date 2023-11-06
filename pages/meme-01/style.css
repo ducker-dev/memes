@@ -52,51 +52,6 @@ footer {
   min-height: calc(100vh - 20rem);
 }
 
-.main__content {
-  display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
-  padding-top: 3.2rem;
-  padding-bottom: 3.2rem;
-}
-
-.main__title {
-  font-size: 2.8rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.main__memes {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 2.4rem;
-}
-
-.main__meme {
-  width: 38.4rem;
-  display: flex;
-  flex-direction: column;
-  background-color: #f9f9f9;
-  border-radius: 1.2rem;
-}
-
-.main__meme-img {
-  height: 28rem;
-}
-
-.main__meme-info {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  padding: 2.4rem;
-}
-
-.main__meme-info-title {
-  font-size: 2rem;
-  font-weight: 600;
-}
-
 /* Footer */
 
 .footer__content {
@@ -117,7 +72,7 @@ footer {
 @media (max-width: 1439px) {
   .header__logo {
     max-width: 15rem;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     line-height: 2.4rem;
   }
 

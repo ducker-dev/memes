@@ -24,6 +24,7 @@ button {
 a,
 button {
   cursor: pointer;
+  color: inherit;
 }
 
 li {
@@ -40,9 +41,19 @@ li {
 }
 
 .container {
-  max-width: 1440px;
-  padding-left: 120px;
-  padding-right: 120px;
+  max-width: 144rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
   margin-right: auto;
   margin-left: auto;
+}
+
+/* @MEDIA */
+
+@media (max-width: 1439px) {
+  .container {
+      max-width: 37.5rem;
+      padding-right: 1.6rem;
+      padding-left: 1.6rem;
+  }
 }
