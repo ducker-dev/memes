@@ -1,12 +1,12 @@
 .footer__content {
-    height: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer__logo {
-    font-size: 2rem;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo {
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
